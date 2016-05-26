@@ -3,4 +3,4 @@
 # Android基础
 课程|内容简介|视频下载|代码下载
 ---|---|---|---
-lesson1|Android开发环境搭建、adb常用命令、界面布局、Logcat|[视频](http://pan.baidu.com/s/1bFByrW)|[代码]()
+lesson1|Android开发环境搭建、adb常用命令、界面布局、Logcat|[视频](http://pan.baidu.com/s/1bFByrW)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson1)
