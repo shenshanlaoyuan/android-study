@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- 均匀的让 每个按钮宽度  占 1/5 , 那么 可以 设置  width为 0dip , 然后通过layout_weight 去设置 所在的整个的 宽度 的比 -->
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="哈哈" />
+
+    <Button 
+        android:text="哈哈"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="哈哈" />
+
+    <Button 
+        android:text="哈哈"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <Button 
+        android:text="哈哈"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

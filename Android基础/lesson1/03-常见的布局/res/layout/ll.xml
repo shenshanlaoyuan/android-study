@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:text="按钮一"
+        android:layout_width="200px"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="按钮二"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content" />
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="二球"
+	    android:textSize="18sp"
+	    />
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="二球二"
+	    android:textSize="28sp"
+	    />
+</LinearLayout>

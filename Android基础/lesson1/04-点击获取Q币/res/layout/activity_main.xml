@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qq"
+        />
+    
+	<TextView 
+	    android:text="请输入QQ号码"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    />
+	<EditText 
+	    android:id="@+id/qq_number"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<TextView 
+	    android:text="请输入QQ密码"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    />
+	<EditText 
+	    android:inputType="textPassword"
+	    android:id="@+id/qq_password"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:id="@+id/btn_login"
+	    android:text="登录"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"/>
+</LinearLayout>

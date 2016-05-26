@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<Button 
+		android:id="@+id/middle"
+	    android:text="0"
+	    android:layout_centerInParent="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="↑"
+	    android:layout_centerHorizontal="true"
+	    android:layout_above="@id/middle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="↓"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/middle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="←"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@id/middle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="→"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@id/middle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="左上角"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="左下角"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="右上角"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="右下角"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+	
+	
+</RelativeLayout>
