@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+	<Button 
+	    android:onClick="dialog01"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="创建确认取消对话框"
+	    />
+	<Button 
+	    android:onClick="dialog02"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="创建单选对话框"
+	    />
+	<Button 
+	    android:onClick="dialog03"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="创建多选对话框"
+	    />
+	<Button 
+	    android:onClick="dialog04"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="创建进度话框"
+	    />
+	<Button 
+	    android:onClick="dialog05"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="创建进度话框-带进度条的"
+	    />
+</LinearLayout>
