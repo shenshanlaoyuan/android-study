@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+	<EditText 
+	    android:id="@+id/ed_path"
+	    android:text="http://www.itheima.com/images_new/logo.jpg"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<Button 
+	    android:text="点我啊"
+	    android:onClick="gogetImage"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<ImageView 
+	    android:id="@+id/iv"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+</LinearLayout>
