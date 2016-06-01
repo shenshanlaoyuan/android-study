@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    
+	    <EditText 
+	        android:id="@+id/ed_name"
+	        android:layout_width="0dip"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        />
+	    <Button 
+	        android:onClick="cacl"
+	        android:text="计算"
+	        android:layout_width="0dip"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        />
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/rp_value"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+</LinearLayout>

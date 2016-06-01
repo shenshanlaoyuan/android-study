@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ed_contact"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="请输入联系人" />
+
+        <Button
+            android:onClick="selectContact"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sms_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入短信内容"
+        android:lines="5" />
+
+    <Button
+        android:onClick="selectMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="选择短信的模版" />
+    <Button
+        android:onClick="sendmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="点击发送短信" />
+	
+</LinearLayout>
