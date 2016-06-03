@@ -9,3 +9,4 @@ lesson3|数据库、listview、dialog|[视频](http://pan.baidu.com/s/1dEMqSr3)|
 losson4|handler机制、json|[视频](http://pan.baidu.com/s/1eSz47nG)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson4)
 lesson5|HttpClient、多线程下载|[视频](http://pan.baidu.com/s/1sl1Qa5n)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson5)
 lesson6|Activity、Intent|[视频](http://pan.baidu.com/s/1nuSM3Eh)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson6)
+lesson7|Activity的生命周期、广播接收者|[视频](http://pan.baidu.com/s/1bpLVBB5)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson7)
