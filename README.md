@@ -25,3 +25,6 @@ lesson7|Activity的生命周期、广播接收者|[视频](http://pan.baidu.com/
 Java基础|[视频](http://pan.baidu.com/s/1qYu2O48)
 
 ## JavaWeb
+内容|视频下载
+---|---
+JavaWeb|[视频](http://pan.baidu.com/s/1dEF7HCH)
