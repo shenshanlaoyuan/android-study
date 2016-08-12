@@ -5,10 +5,11 @@
 
 如果没有Java基础,可以先看下文章末尾Java基础和JavawWeb视频。
 
-
-
 ---
 
+推荐两个好的学习平台：
+* [Android博客推荐](https://github.com/shenshanlaoyuan/android-blog-cn)
+* [微信公众号推荐](https://github.com/shenshanlaoyuan/android-blog-cn/blob/master/WeChat.md)
 
 ## Android基础
 课程|内容简介|视频下载|代码下载
