@@ -1,9 +1,9 @@
 # 说明
 本仓库为Android学习视频代码托管仓库。
 
-如果你想自学Android开发，强烈推荐看下这套视频。
+如果你想自学Android开发，可以看下这套视频。
 
-如果没有Java基础,可以先看下文章末尾Java基础和JavawWeb视频。
+没有Java基础的,可以先看下文章末尾Java基础和JavawWeb视频。
 
 ---
 
