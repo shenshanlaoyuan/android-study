@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+	<EditText 
+	    android:id="@+id/ed_text"
+	    android:hint="请输入点内容吧..."
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/hello_world" >
+
+      <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sound"
+            android:text="声音" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="display"
+            android:text="显示" />
+
+        <Button
+             android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="storage"
+            android:text="存储" />
+    </LinearLayout>
+
+</LinearLayout>

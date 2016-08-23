@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="青----------------------------------红" />
+
+    <SeekBar
+        android:id="@+id/skb_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="紫----------------------------------绿" />
+
+    <SeekBar
+        android:id="@+id/skb_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄----------------------------------蓝" />
+
+    <SeekBar
+        android:id="@+id/skb_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
