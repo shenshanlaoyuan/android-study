@@ -23,6 +23,8 @@ lesson6|Activity、Intent|[视频](http://pan.baidu.com/s/1nuSM3Eh)|[代码](htt
 lesson7|Activity的生命周期、广播接收者|[视频](http://pan.baidu.com/s/1bpLVBB5)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson7)
 lesson8|Service、绑定服务、服务的生命周期|[视频](http://pan.baidu.com/s/1combT0)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson8)
 lesson9|服务的远程调用、ContentProvider|[视频](http://pan.baidu.com/s/1c3fi5S)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson9)
+lesson10|fragment|[视频](http://pan.baidu.com/s/1qXKD0Hu)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson10)
+lesson11|图片的操作、视频播放器、传感器|[视频](http://pan.baidu.com/s/1i48G0DJ)|[代码](https://github.com/shenshanlaoyuan/android-study/tree/master/Android%E5%9F%BA%E7%A1%80/lesson11)
 
 
 
